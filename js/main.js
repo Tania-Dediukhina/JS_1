@@ -128,7 +128,9 @@ strObj.str.length;
 
 var isRamaPos=srtObj.str.indexOf('рама');
 console.log(isRamaPos>=0);
-/*
+
+/*gi
+
  * #8
  *
  * Выполните переименование подстроки в строке.
