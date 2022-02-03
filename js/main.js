@@ -22,7 +22,7 @@ var myBool = true;
 var myArr;
 myArr = [1,2,3,4,5];
 var myObj = {first : 'First Name',last : 'Last Name'};
-console.log(myNum,myStr,myBool,myArr,myObj);
+console.log(myStr,myBool,myArr,myObj);
 
 /*
  * #2
@@ -55,7 +55,7 @@ console.log(--i);
  * Выполните присваивание с операцией, используя операторы: +=, –=, *=, /=, %=.
  * Результаты присваиваются в myTest, затем выводятся в консоль.
  * В вычислениях можно использовать объявленную ранее переменную myNum и/или числа.
- */
+ */// %=
    
 // myTest
 var myTest = 20;
@@ -84,7 +84,7 @@ myTest=myTest%=myNum;
 console.log(myTest);
 
 
-// %=
+
 
 /*
  * #5
@@ -124,10 +124,10 @@ strObj.str.length;
  * результат сохраните в переменную isRamaPos и выведите ее в консоль.
  */
 // isRamaPos
-//16 (если нет -1)
+//
 
 var isRamaPos=srtObj.str.indexOf('рама');
-console.log(isRamaPos>=0);
+console.log(isRamaPos>=0);// true-наличие, false-отсутствие слова "рама" в обьекте strObj(16 (если нет -1))
 
 /*gi
 
